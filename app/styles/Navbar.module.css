@@ -1,0 +1,16 @@
+/* components/Navbar.module.css */
+.colorMenu {
+    color: white !important;
+    /* Asegúrate de que el texto sea blanco */
+}
+
+.colorMenu:hover {
+    color: darkblue !important;
+    /* Color de texto al pasar el mouse, ajusta si es necesario */
+}
+
+/* Estilo para el enlace activo */
+.active {
+    font-weight: bold!important; /* Puedes ajustar esto a lo que prefieras */
+    text-decoration: underline!important;
+  }

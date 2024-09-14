@@ -1,0 +1,24 @@
+.paragraph{
+    text-align: justify;
+    color: #6c757d;
+}
+.meet{
+    color: darkgoldenrod;
+}
+.realtor{
+font-style: italic;
+color: #6c757d;
+}
+.btn-contact {
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: darkgoldenrod!important;
+    color: white;
+}
+.btn-contact:hover {
+    background-color: #6c757d;
+    transform: translateX(10px);
+}
+.contact {
+    bottom: 10vh;
+}
