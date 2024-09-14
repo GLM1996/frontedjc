@@ -2,15 +2,18 @@ import BannerComponent from '../../components/BannerComponent';
 import Link from 'next/link'
 import '../styles/About.css'
 import Image from 'next/image';
+import { Suspense } from "react";
 
 export default function About() {
     return (
         <>
-            <BannerComponent
-                title="JUAN CARLOS CARRERA"
-                subtitle="Who We Are"
-                backgroundImage="https://www.homelasvegasnevada.com/wp-content/uploads/2022/01/Las-Vegas.jpg"
-            />
+            <Suspense>
+                <BannerComponent
+                    title="JUAN CARLOS CARRERA"
+                    subtitle="Who We Are"
+                    backgroundImage="https://www.homelasvegasnevada.com/wp-content/uploads/2022/01/Las-Vegas.jpg"
+                />
+            </Suspense>
             <div className="row d-flex justify-content-center align-items-center">
                 <div className="col-12 col-md-6">
                     <div className="m-1 p-5">
